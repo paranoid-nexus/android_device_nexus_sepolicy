@@ -1,0 +1,2 @@
+allow vendor_dpmd vendor_hal_diag_hwservice:hwservice_manager find;
+

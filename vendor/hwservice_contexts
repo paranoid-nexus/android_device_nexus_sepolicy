@@ -1,1 +1,2 @@
 vendor.qti.ims.factor::IImsFactory                              u:object_r:vendor_hal_imsfactory_hwservice:s0
+vendor.qti.diaghal::Idiag					u:object_r:vendor_hal_diag_hwservice:s0
