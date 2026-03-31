@@ -1,0 +1,2 @@
+allow vendor_hal_usb_qti vendor_sysfs_usb_controller:file { open read getattr };
+allow vendor_hal_usb_qti vendor_sysfs_usb_controller:dir { search };
