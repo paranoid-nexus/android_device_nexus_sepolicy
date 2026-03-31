@@ -1,0 +1,1 @@
+add_service(vendor_poweroptservice, vendor_hal_poweroptservice_service)
