@@ -1,0 +1,6 @@
+hal_attribute_service(vendor_hal_qspmhal, vendor_hal_qspmhal_service)
+binder_call(vendor_hal_qspmhal_server, servicemanager)
+
+# Add permission to create/write file
+allow vendor_hal_qspmhal_default vendor_qspmhal_data_file:dir { add_name create getattr open read remove_name unlink write };
+allow vendor_hal_qspmhal_default vendor_qspmhal_data_file:file { open write };

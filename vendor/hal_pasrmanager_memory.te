@@ -1,0 +1,3 @@
+# Allow PASR clients to perform binder IPC to PASR HAL server
+hal_attribute_service(vendor_hal_mem_pasrmanager, vendor_hal_pasrmanager_service)
+binder_call(vendor_pasrmanager_memory_qti, servicemanager)

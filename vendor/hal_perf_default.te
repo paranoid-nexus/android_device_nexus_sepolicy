@@ -1,0 +1,12 @@
+# Allow AIDL base perf-hal communication
+hal_attribute_service(vendor_hal_perf, vendor_hal_perf2_service)
+binder_call(vendor_hal_perf_server, servicemanager)
+
+# Add hwservice related rules
+get_prop(vendor_hal_perf, vendor_afp_prop)
+
+# Allow perf hal to interact with pasr memory hal
+allow vendor_hal_perf_default hal_graphics_composer_default:dir search;
+allow vendor_hal_perf_default hal_graphics_composer_default:file { open read };
+allow vendor_hal_perf_default surfaceflinger:dir search;
+allow vendor_hal_perf_default surfaceflinger:file { open read };
