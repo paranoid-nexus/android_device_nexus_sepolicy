@@ -1,0 +1,2 @@
+# Allow QSPM hal service accessing camera
+hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
