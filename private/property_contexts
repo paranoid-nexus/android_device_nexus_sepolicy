@@ -1,3 +1,10 @@
+# Nexus
+ro.nexus.version                       u:object_r:custom_version_prop:s0
+ro.nexus.display.version               u:object_r:custom_version_prop:s0
+ro.nexus.build.version                 u:object_r:custom_version_prop:s0
+ro.nexus.releasetype                   u:object_r:custom_version_prop:s0
+ro.nexus.device                        u:object_r:custom_version_prop:s0
+
 # PIHooks
 persist.sys.pihooks.disable.           u:object_r:pih_disable_prop:s0
 
